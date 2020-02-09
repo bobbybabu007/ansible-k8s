@@ -5,6 +5,10 @@ cidr_v: 10.128.0.0/28
 packages:
 - kubeadm
 - kubectl
+- kubelet
+
+node_packages:
+- kubelet
 
 services:
 - docker
